@@ -11,10 +11,14 @@ body{
     align-items: center;
     justify-content: center;
     perspective: 1000px;
+    background: linear-gradient(
+        to bottom,
+        rgba(235, 130, 129, 0.75),
+        rgba(114, 176, 238, 0.75)
+    );
 }
 
 .container{
-    /* background: lightblue; */
     width: 50%;
     display: flex;
     justify-content: center;
@@ -28,6 +32,7 @@ body{
     border-radius: 30px;
     padding: 0rem 5rem;
     box-shadow: 0 20px 20px rgba(0,0,0,0.3), 0px 0px 50px rgba(0,0,0,0.3);
+    background-color: white;
 }
 
 .tenis{
@@ -70,16 +75,11 @@ body{
     padding: 0.5rem 1.5rem;
     background: none;
     border: none;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
     border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
     color: #585858;
-}
-
-button.active{
-    background: #585858;
-    color: white;
 }
 
 .comprar{
@@ -95,4 +95,11 @@ button.active{
     cursor: pointer;
     border: none;
     font-weight: bolder;
+    outline: none;
+}
+
+.tamanhos button:focus{
+    background: #585858;
+    color: white;
+    outline: none;
 }

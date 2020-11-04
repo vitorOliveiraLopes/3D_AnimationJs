@@ -7,6 +7,8 @@ const comprar = document.querySelector('.comprar button');
 const descricao = document.querySelector('.descricao h3');
 const tamanhos = document.querySelector('.tamanhos')
 
+document.getElementById("btn42").focus();
+
 //Evento de animação
 container.addEventListener('mousemove', (e) => {
     let eixoX = (window.innerWidth / 2 - e.pageX) / 20;
