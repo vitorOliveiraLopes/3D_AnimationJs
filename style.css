@@ -11,11 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     perspective: 1000px;
-    background: linear-gradient(
-        to bottom,
-        rgba(235, 130, 129, 0.75),
-        rgba(114, 176, 238, 0.75)
-    );
+    background-image: linear-gradient(to bottom,#383737, #434242, #4f4d4d, #5b5959, #676565, #747272, #82807f, #908e8d, #a3a09f, #b6b3b2, #cac6c5, #dedad9);
 }
 
 .container{
@@ -52,8 +48,8 @@ body{
     height: 12rem;
     background: linear-gradient(
         to right,
-        rgba(245, 70, 66, 0.75),
-        rgba(8,83,156, 0.75)
+        #B8B5B4,
+        #787675
     );
     position: absolute;
     border-radius: 50%;
@@ -65,7 +61,7 @@ body{
 }
 
 .descricao h3{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     padding: 2rem 0rem;
     color: #585858;
     font-weight: lighter;
@@ -89,7 +85,7 @@ body{
 .comprar button {
     width: 100%;
     padding: 1rem 0rem;
-    background: #f54642;
+    background: rgba(205,49,49);
     color: white;
     border-radius: 30px;
     cursor: pointer;
