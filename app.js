@@ -26,7 +26,7 @@ container.addEventListener('mouseenter', e => {
 
     //popup para o imagem do tenis
     tenis.style.transition = 'all 0.5s ease';
-    tenis.style.transform = 'translateZ(120px)';
+    tenis.style.transform = 'translateZ(120px) rotateZ(-40deg)';
 
     //popup para o botão de compra
     comprar.style.transition = 'all 0.5s ease';
@@ -52,7 +52,7 @@ container.addEventListener('mouseleave', e => {
 
     //retorna a imagem do tenis para a posição inicial
     tenis.style.transition = 'all 0.5s ease';
-    tenis.style.transform = 'translateZ(0px)';
+    tenis.style.transform = 'translateZ(0px) rotateZ(0deg)';
 
     //retorna o botão de comprar para a posição inicial
     comprar.style.transition = 'all 0.5s ease'
